@@ -47,11 +47,11 @@ Type quit() or Ctrl-D to exit this shell.
 
 ## Libraries
 
-### Installing a Library, Importing and Using it via ObjectScript Shell [geopy](https://pypi.org/project/geopy/) 
+### Installing a Library, Importing and Using it via ObjectScript Shell: [geopy](https://pypi.org/project/geopy/) 
 
 Powershell:
 ```
-> .\irispip install --target C:\InterSystems_Webinar\mgr\python geopy
+PS C:\InterSystems_Webinar\bin> .\irispip install --target C:\InterSystems_Webinar\mgr\python geopy
 ```
 
 ObjectScript Shell:
@@ -69,6 +69,37 @@ WEBINAR> write route.km
 53.88684225580475839
 ```
 
+### Installing a Library, Importing and Using it via Python Shell: [jsondiff](https://pypi.org/project/jsondiff/)
+
+Powershell:
+```
+PS C:\InterSystems_Webinar\bin> .\irispip install --target C:\InterSystems_Webinar\mgr\python jsondiff
+```
+
+Python Shell:
+```
+>> from jsondiff import diff
+>>> diff({'a': 1, 'b': 2}, {'a': 1, 'b':3})
+{'b':3}
+```
+
+### Converting JSON to Excel: [json2excel](https://pypi.org/project/json2excel/)
+
+Powershell:
+```
+PS C:\InterSystems_Webinar\bin> .\irispip install --target C:\InterSystems_Webinar\mgr\python json2excel
+```
+
+Python Shell:
+```
+>>> from json2excel import Json2Excel
+>>> json2excel = Json2Excel()
+>>> jsons = [{"studentNo":1001, "Name": "Rivka"},{"studentNo":1002, "Name":"Benny"}]
+>>> print(json2excel.run(jsons))
+<file location>
+```
+
+## Interoperability
 
 
 
