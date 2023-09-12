@@ -102,4 +102,18 @@ Python Shell:
 ## Interoperability
 
 
+## Running a Python Script
+```
+PS C:\InterSystems_Webinar\bin> $env:IRISUSERNAME = "aglikman"
+PS C:\InterSystems_Webinar\bin> $env:IRISPASSWORD = "1234"
+PS C:\InterSystems_Webinar\bin> $env:IRISNAMESPACE = "WEBINAR"
+PS C:\InterSystems_Webinar\bin> .\irispython C:\Users\aglikman\Documents\MyProjects\Webinar\test.py
 
+Fibonacci series:
+0 1 1 2 3 5 8 
+Run IRIS Code:
+
+Hi! I'm Issac Herzog.
+I live at 3 HaNassi, Jerusalem.
+My postal code is: 9218801.
+```
