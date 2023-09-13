@@ -100,7 +100,17 @@ Python Shell:
 ```
 
 ## Interoperability
+
+The TCP Service receives the HL7 message, and forwards it to the Buisness Process. Here it goes through a transformation, where the Name, Address, and Hebrew Update Date are put into the message and sent to the Buisness Operation. It in turn finds the postal code from the Python Library geopy, adds all fields from the message, and the postal code to the human, and saves the human into the table. We see the query results from the table using the SQL Tools InterSystems extension in Visual Studio code.
+
 ![image](https://github.com/Ari-Glikman/Webinar-Leveraging-Embedded-Python/assets/73805987/dde41ec2-6b87-4200-b862-ee4f7e4f4ce6)
+
+![image](https://github.com/Ari-Glikman/Webinar-Leveraging-Embedded-Python/assets/73805987/9c9d9c6c-30b0-4fee-8bf7-cc6ddfbee4da)
+
+![image](https://github.com/Ari-Glikman/Webinar-Leveraging-Embedded-Python/assets/73805987/c787b3e8-61cd-473e-aa82-b32551ead6b8)
+
+![image](https://github.com/Ari-Glikman/Webinar-Leveraging-Embedded-Python/assets/73805987/a56c2bb6-ae22-46d9-a3b7-dad85588a132)
+
 
 
 ## Running a Python Script
