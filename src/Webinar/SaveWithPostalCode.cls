@@ -1,6 +1,6 @@
 Class Webinar.SaveWithPostalCode Extends Ens.BusinessOperation
 {
-שדג
+
 Parameter ADAPTER = "EnsLib.SQL.OutboundAdapter";
 
 Property Adapter As EnsLib.SQL.OutboundAdapter;
