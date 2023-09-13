@@ -1,5 +1,7 @@
 # Webinar: Leveraging Embedded Python
 
+These demos are to make it easier for you to follow along with the webinar. Additional resources are available as well, details at the end.
+
 ## Change From ObjectScript Shell to Python Shell
 
 ```
@@ -128,3 +130,15 @@ Hi! I'm Issac Herzog.
 I live at 3 HaNassi, Jerusalem.
 My postal code is: 9218801.
 ```
+
+## Additional Resources
+
+Want to learn more? Don't speak Hebrew? There are numerous resources available for you:
+- [Intro to Embedded Python](https://community.intersystems.com/post/video-introduction-embedded-python)
+- [Official Documentation](https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_epython)
+- [Using Python with InterSystems IRIS](https://community.intersystems.com/post/video-using-python-intersystems-iris)
+- [Use Cases](https://community.intersystems.com/post/video-embedded-python-use-cases)
+- [Bring It To Your App](https://community.intersystems.com/post/video-embedded-python-bring-python-ecosystem-your-objectscript-app)
+- [Write Your SQL Stored Procedures In Python](https://community.intersystems.com/post/new-video-embedding-python-sql-write-your-stored-procedures-python)
+
+  But that's not all. Check out our [InterSystems Community](https://community.intersystems.com/tags/embedded-python), (InterSystems Open Exchange)[https://openexchange.intersystems.com/?search=embedded%20python&sort=r], (Youtube Channel)[https://www.youtube.com/@InterSystemsCorp/search?query=embedded%20python] to find many more articles, videos, and information to help you advance your embedded python knowledge.
