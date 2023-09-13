@@ -140,5 +140,6 @@ Want to learn more? Don't speak Hebrew? There are numerous resources available f
 - [Use Cases](https://community.intersystems.com/post/video-embedded-python-use-cases)
 - [Bring It To Your App](https://community.intersystems.com/post/video-embedded-python-bring-python-ecosystem-your-objectscript-app)
 - [Write Your SQL Stored Procedures In Python](https://community.intersystems.com/post/new-video-embedding-python-sql-write-your-stored-procedures-python)
+- [Setting up InterSystems Development Environment with Python](https://www.youtube.com/watch?v=9sR6_f8uNHc)
 
   But that's not all. Check out our [InterSystems Community](https://community.intersystems.com/tags/embedded-python), [InterSystems Open Exchange](https://openexchange.intersystems.com/?search=embedded%20python&sort=r), and [Youtube Channel](https://www.youtube.com/@InterSystemsCorp/search?query=embedded%20python) to find many more articles, videos, and information to help you advance your embedded python knowledge. Note that we have lots of content available in multiple languages, be it on the Community, or the Youtube Channel. Use what suits you best.
