@@ -100,6 +100,7 @@ Python Shell:
 ```
 
 ## Interoperability
+![image](https://github.com/Ari-Glikman/Webinar-Leveraging-Embedded-Python/assets/73805987/664df454-9375-46a3-8089-2a2e33b7f1f4)
 
 
 ## Running a Python Script
