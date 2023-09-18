@@ -1,6 +1,6 @@
 # Webinar: Leveraging Embedded Python
 
-These demos are to make it easier for you to follow along with the webinar. Additional resources are available as well, details at the end.
+These demos are to make it easier for you to follow along with the [webinar](https://youtu.be/shr7yMRj83Q?si=UzgGqLaV65fJ5mny). Additional resources are available as well, details at the end.
 
 ## Change From ObjectScript Shell to Python Shell
 
