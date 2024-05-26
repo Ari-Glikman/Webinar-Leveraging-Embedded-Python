@@ -143,3 +143,37 @@ Want to learn more? Don't speak Hebrew? There are numerous resources available f
 - [Setting up InterSystems Development Environment with Python](https://www.youtube.com/watch?v=9sR6_f8uNHc)
 
   But that's not all. Check out our [InterSystems Community](https://community.intersystems.com/tags/embedded-python), [InterSystems Open Exchange](https://openexchange.intersystems.com/?search=embedded%20python&sort=r), and [Youtube Channel](https://www.youtube.com/@InterSystemsCorp/search?query=embedded%20python) to find many more articles, videos, and information to help you advance your embedded python knowledge. Note that we have lots of content available in multiple languages, be it on the Community, or the Youtube Channel. Use what suits you best.
+
+## Docker 
+Namespace WEBINAR is prepared and IRIS classes ready to use   
+Webinar.Human is preloaded with 25 records    
+All requred Python libraries are loaded    
+### Prerequisites
+Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
+### Installation
+Clone/git pull the repo into any local directory
+```
+$ git clone https://github.com/rcemper/PR_Webinar-Leveraging-Embedded-Python.git
+```
+to build and start the container run     
+```
+$ docker compose up -d && docker compose logs -f
+```
+you can start Pythosn shell using alias **:py**     
+
+To open IRIS Terminal do:   
+```
+$ docker-compose exec iris iris session iris 
+USER>ZN "WEBINAR"  
+WEBINAR>:py     
+   
+Python 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type quit() or Ctrl-D to exit this shell.
+>>>    
+```
+or using **WebTerminal**     
+http://localhost:42773/terminal/      
+
+To access IRIS System Management Portal   
+http://localhost:42773/csp/sys/UtilHome.csp    
+

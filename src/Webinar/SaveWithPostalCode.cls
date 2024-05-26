@@ -7,7 +7,8 @@ Property Adapter As EnsLib.SQL.OutboundAdapter;
 
 Parameter INVOCATION = "Queue";
 
-Method AddPostalCode(pRequest As Webinar.RequestMsg, Output pResponse As Ens.Response) As %Status [ Language = python ]
+/// Method AddPostalCode(pRequest As Webinar.RequestMsg, Output pResponse As Ens.Response) As %Status [ Language = python ]
+Method AddPostalCode(pRequest As Webinar.RequestMsg, pResponse As Ens.Response) As %Status [ Language = python ]
 {
   import iris
   from geopy.geocoders import Nominatim

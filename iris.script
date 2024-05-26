@@ -1,0 +1,19 @@
+zn "%SYS"
+  
+// Unexpire passwords and set up passwordless mode to simplify dev use.
+do ##class(Security.Users).UnExpireUserPasswords("*")
+zpm "install passwordless"
+do $system.OBJ.Load("/home/irisowner/dev/Zapp.Installer.cls","ck")
+do ##class(Zapp.Installer).setup()
+
+zn "WEBINAR"
+// Create /_vscode web app to support intersystems-community.testingmanager VS Code extension
+zpm "install vscode-per-namespace-settings"
+zpm "install webterminal"
+
+// this should be the place for individual application code.
+zpm "load /home/irisowner/dev -v":1
+write ?5,##class(Webinar.Human).Populate(25), " records prepared",!
+zpm "list"
+halt
+
