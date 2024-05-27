@@ -2,8 +2,8 @@
 print('Fibonacci series:')
 a, b = 0, 1
 while a < 10:
-    print(a, end=' ')
-    a, b = b, a + b
+ print(a, end=' ')
+ a, b = b, a + b
 
 # import the iris module and run instance method
 import iris
